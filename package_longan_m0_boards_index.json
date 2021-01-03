@@ -14,8 +14,8 @@
 				"category": "Contributed",
 				"url": "https://github.com/Longan-Labs/Longan-SAMD-Boards/raw/master/Longan-samd-1.0.0.tar.bz2",
 				"archiveFileName": "Longan-samd-1.0.0.tar.bz2",
-				"checksum": "SHA-256:d9953e47013d02668bbc87a891d9e057182cf7920fe49283139cf33d9d8849b4",
-				"size": "4385635",
+				"checksum": "SHA-256:09be03a9aaf69ea374f473233d474709599fcf53b317177ca3dc07893af410ae",
+				"size": "1474518",
 				"help": {
 					"online": "https://docs.longan-labs.cc"
 				},

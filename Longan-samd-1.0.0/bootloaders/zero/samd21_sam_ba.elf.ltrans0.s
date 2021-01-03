@@ -3573,5 +3573,5 @@ exception_table:
 .LC64:
 	.ascii	"Longan Labs\000"
 .LC66:
-	.ascii	"Arduino Zero\000"
+	.ascii	"CANBed M0\000"
 	.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]"

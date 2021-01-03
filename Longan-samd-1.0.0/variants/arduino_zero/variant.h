@@ -30,7 +30,7 @@
 #define VARIANT_MAINOSC		(32768ul)
 
 /** Master clock frequency */
-#define VARIANT_MCK			  (48000000ul)
+#define VARIANT_MCK		    (48000000ul)
 
 /*----------------------------------------------------------------------------
  *        Headers
@@ -196,7 +196,7 @@ extern SERCOM sercom3;
 extern SERCOM sercom4;
 extern SERCOM sercom5;
 
-extern Uart Serial;
+extern Uart Serial2;
 extern Uart Serial1;
 
 #endif
@@ -225,10 +225,12 @@ unsigned int PINCOUNT_fn();
 // SERIAL_PORT_HARDWARE_OPEN  Hardware serial ports which are open for use.  Their RX & TX
 //                            pins are NOT connected to anything by default.
 #define SERIAL_PORT_USBVIRTUAL      SerialUSB
-#define SERIAL_PORT_MONITOR         Serial
+#define SERIAL_PORT_MONITOR         SerialUSB
 // Serial has no physical pins broken out, so it's not listed as HARDWARE port
 #define SERIAL_PORT_HARDWARE        Serial1
 #define SERIAL_PORT_HARDWARE_OPEN   Serial1
+
+#define Serial                      SerialUSB
 
 #endif /* _VARIANT_ARDUINO_ZERO_ */
 

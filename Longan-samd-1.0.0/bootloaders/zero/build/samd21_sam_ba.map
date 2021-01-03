@@ -151,7 +151,7 @@ LOAD c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi
  .isr_vector    0x00000000       0x40 samd21_sam_ba.elf.ltrans0.ltrans.o
                 0x00000000                exception_table
 
-.text           0x00000040     0x1624
+.text           0x00000040     0x1620
  *(.text*)
  .text          0x00000040       0x48 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
  .text          0x00000088      0xed4 samd21_sam_ba.elf.ltrans0.ltrans.o
@@ -185,42 +185,42 @@ LOAD c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi
  *(.rodata*)
  .rodata        0x00001398      0x284 samd21_sam_ba.elf.ltrans0.ltrans.o
  .rodata.str1.1
-                0x0000161c       0x42 samd21_sam_ba.elf.ltrans0.ltrans.o
-                                 0x45 (size before relaxing)
+                0x0000161c       0x3f samd21_sam_ba.elf.ltrans0.ltrans.o
+                                 0x42 (size before relaxing)
  *(.eh_frame*)
- *fill*         0x0000165e        0x2 
- .eh_frame      0x00001660        0x0 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
- .eh_frame      0x00001660        0x4 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
+ *fill*         0x0000165b        0x1 
+ .eh_frame      0x0000165c        0x0 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+ .eh_frame      0x0000165c        0x4 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtend.o
 
-.glue_7         0x00001664        0x0
- .glue_7        0x00001664        0x0 linker stubs
+.glue_7         0x00001660        0x0
+ .glue_7        0x00001660        0x0 linker stubs
 
-.glue_7t        0x00001664        0x0
- .glue_7t       0x00001664        0x0 linker stubs
+.glue_7t        0x00001660        0x0
+ .glue_7t       0x00001660        0x0 linker stubs
 
-.vfp11_veneer   0x00001664        0x0
- .vfp11_veneer  0x00001664        0x0 linker stubs
+.vfp11_veneer   0x00001660        0x0
+ .vfp11_veneer  0x00001660        0x0 linker stubs
 
-.v4_bx          0x00001664        0x0
- .v4_bx         0x00001664        0x0 linker stubs
+.v4_bx          0x00001660        0x0
+ .v4_bx         0x00001660        0x0 linker stubs
 
-.iplt           0x00001664        0x0
- .iplt          0x00001664        0x0 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+.iplt           0x00001660        0x0
+ .iplt          0x00001660        0x0 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
 
-.rel.dyn        0x00001664        0x0
- .rel.iplt      0x00001664        0x0 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
+.rel.dyn        0x00001660        0x0
+ .rel.iplt      0x00001660        0x0 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00001664                __exidx_start = .
+                0x00001660                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00001664                __exidx_end = .
-                0x00001664                __etext = .
+                0x00001660                __exidx_end = .
+                0x00001660                __etext = .
                 0x00002000                PROVIDE (__sketch_vectors_ptr, (ORIGIN (FLASH) + LENGTH (FLASH)))
 
-.data           0x20000000       0x5c load address 0x00001664
+.data           0x20000000       0x5c load address 0x00001660
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -246,10 +246,10 @@ LOAD c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi
                 0x2000005c                . = ALIGN (0x4)
                 0x2000005c                __data_end__ = .
 
-.igot.plt       0x2000005c        0x0 load address 0x000016c0
+.igot.plt       0x2000005c        0x0 load address 0x000016bc
  .igot.plt      0x2000005c        0x0 c:/users/lowai/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v6-m/crtbegin.o
 
-.bss            0x2000005c      0x34c load address 0x000016c0
+.bss            0x2000005c      0x34c load address 0x000016bc
                 0x2000005c                . = ALIGN (0x4)
                 0x2000005c                __bss_start__ = .
  *(.bss*)

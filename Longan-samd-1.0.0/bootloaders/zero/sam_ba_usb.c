@@ -153,10 +153,12 @@ char cfgDescriptor[] =
 };
 
 #ifndef STRING_MANUFACTURER
+//#  define STRING_MANUFACTURER "Longan Labs"
 #  define STRING_MANUFACTURER "Longan Labs"
 #endif
 
 #ifndef STRING_PRODUCT
+//#  define STRING_PRODUCT "Squame Ethernet"
 #  define STRING_PRODUCT "CANBed M0"
 #endif
 
