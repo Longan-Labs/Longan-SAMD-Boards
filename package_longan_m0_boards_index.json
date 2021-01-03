@@ -12,12 +12,12 @@
 				"architecture": "samd",
 				"version": "1.0.0",
 				"category": "Contributed",
-				"url": "https://files.seeedstudio.com/arduino/core/samd/ArduinoCore-samd-1.8.1.tar.bz2",
+				"url": "https://github.com/Longan-Labs/Longan-SAMD-Boards/raw/master/Longan-samd-1.0.0.tar.bz2",
 				"archiveFileName": "Longan-samd-1.0.0.tar.bz2",
 				"checksum": "SHA-256:d9953e47013d02668bbc87a891d9e057182cf7920fe49283139cf33d9d8849b4",
 				"size": "4385635",
 				"help": {
-					"online": "https://wiki.seeedstudio.com"
+					"online": "https://docs.longan-labs.cc"
 				},
 				"boards": [{
 						"name": "CANBed M0"
