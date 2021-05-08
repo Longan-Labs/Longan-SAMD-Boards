@@ -13,4 +13,4 @@ Click on [Longan-Labs.cc](Longan-Labs.cc) to get the product you need.
 
 Contact [support@longan-labs.cc](support@longan-labs.cc) if you need help.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-101965714-1/LONGAN-SAME-TOOLS)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-101965714-1/Longan-SAMD-Boards)](https://github.com/igrigorik/ga-beacon)
