@@ -177,6 +177,65 @@
 						"version": "1.2.1"
 					}
 				]
+			},
+            {
+				"name": "Longan SAMD Boards",
+				"architecture": "samd",
+				"version": "1.0.3",
+				"category": "Contributed",
+				"url": "https://github.com/Longan-Labs/Longan-SAMD-Boards/raw/master/Longan-samd-1.0.3.tar.bz2",
+				"archiveFileName": "Longan-samd-1.0.3.tar.bz2",
+				"checksum": "SHA-256:6db5ebdbf422bc8adc21bf195549608127bd81174806425251baf7f01d430d8b",
+				"size": "1620581",
+				"help": {
+					"online": "https://docs.longan-labs.cc"
+				},
+				"boards": [{
+						"name": "CANBed M0"
+					},
+					{
+						"name": "Squama Ethernet"
+					},
+					{
+						"name": "Longan OBD-II Basic Board"
+					}
+				],
+				"toolsDependencies": [{
+						"packager": "Longan_M0",
+						"name": "arm-none-eabi-gcc",
+						"version": "7-2017q4"
+					},
+					{
+						"packager": "Longan_M0",
+						"name": "bossac",
+						"version": "1.7.0-arduino3"
+					},
+					{
+						"packager": "Longan_M0",
+						"name": "bossac",
+						"version": "1.8.0-48-gb176eee"
+					},
+					{
+						"packager": "arduino",
+						"name": "openocd",
+						"version": "0.10.0-arduino7"
+					},
+					{
+						"packager": "Longan_M0",
+						"name": "CMSIS",
+						"version": "5.4.0"
+					},
+					{
+						"packager": "Longan_M0",
+						"name": "CMSIS-Atmel",
+						"version": "1.2.1"
+					},
+					{
+						"packager": "Longan_M0",
+						"name": "arduinoOTA",
+						"version": "1.2.1"
+					}
+				]
 			}
 		],
 		"tools": [{

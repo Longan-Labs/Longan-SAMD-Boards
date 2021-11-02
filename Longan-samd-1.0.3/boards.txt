@@ -84,3 +84,38 @@ Squama_Ethernet.build.vid=0x2341
 Squama_Ethernet.build.pid=0x804d
 Squama_Ethernet.bootloader.tool=openocd
 Squama_Ethernet.bootloader.file=zero/samd21_sam_ba.bin
+
+# Longan OBD-II Basic Board
+# --------------------------------------
+Longan_OBD.name=Longan OBD-II Basic Board (ATSAMD21G18)
+Longan_OBD.vid.0=0x2341
+Longan_OBD.pid.0=0x804d
+Longan_OBD.vid.1=0x2341
+Longan_OBD.pid.1=0x004d
+Longan_OBD.vid.2=0x2341
+Longan_OBD.pid.2=0x824d
+Longan_OBD.vid.3=0x2341
+Longan_OBD.pid.3=0x024d
+
+Longan_OBD.upload.tool=bossac
+Longan_OBD.upload.protocol=sam-ba
+Longan_OBD.upload.maximum_size=262144
+Longan_OBD.upload.maximum_data_size=32768
+Longan_OBD.upload.use_1200bps_touch=true
+Longan_OBD.upload.wait_for_upload_port=true
+Longan_OBD.upload.native_usb=true
+Longan_OBD.build.mcu=cortex-m0plus
+Longan_OBD.build.f_cpu=48000000L
+Longan_OBD.build.usb_product="Longan OBD-II"
+Longan_OBD.build.usb_manufacturer="Longan Labs"
+Longan_OBD.build.board=SAMD_ZERO
+Longan_OBD.build.core=arduino
+Longan_OBD.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+Longan_OBD.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+Longan_OBD.build.openocdscript=openocd_scripts/arduino_zero.cfg
+Longan_OBD.build.variant=arduino_zero
+Longan_OBD.build.variant_system_lib=
+Longan_OBD.build.vid=0x2341
+Longan_OBD.build.pid=0x804d
+Longan_OBD.bootloader.tool=openocd
+Longan_OBD.bootloader.file=zero/samd21_sam_ba.bin
