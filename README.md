@@ -7,6 +7,7 @@ We have 2 SAME51 boards now,
 * [CANBed M0 - Arduino Cortex M0 CAN Bus Dev board](https://www.longan-labs.cc/1030014.html)
 * [Squama Ethernet](https://www.longan-labs.cc/1050001.html)
 * [Squama Ethernet with PoE](https://www.longan-labs.cc/1050002.html)
+* 【Longan OBD-II Basic Board】()
 
 
 Click on [Longan-Labs.cc](Longan-Labs.cc) to get the product you need.
